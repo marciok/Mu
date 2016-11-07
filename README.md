@@ -23,7 +23,7 @@ Mu is a minimal language, that is consisted by a postfix operator, a binary oper
 * Parser
 * Interpreter
  
-![Alt text](flow.png)
+![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Intro.xcplaygroundpage/Resources/flow.png)
 
 ---
 
@@ -33,7 +33,7 @@ Mu is a minimal language, that is consisted by a postfix operator, a binary oper
 
 
 ## Example:
-![Alt text](lexer.png)
+![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Lexer.xcplaygroundpage/Resources/lexer.png)
 
 Because `Mu` is so small--only one character operator and numbers--you can simply iterate over the input and check each one character at the time.
 
@@ -104,7 +104,7 @@ func parseExpression() -> PrimaryExpressionNode {
 }
 ~~~
 
-![Alt text](parser.png)
+![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Parser.xcplaygroundpage/Resources/parser.png)
 
 ```swift
 indirect enum PrimaryExpressionNode {
@@ -213,7 +213,7 @@ var ast = try! parser.parse()
 ## Example:
 `Mu`'s interpreter will walk through its A.S.T and compute a value by applying an operator to the children nodes.  
 
-![Alt text](simple-ast.png)
+![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Interpreter.xcplaygroundpage/Resources/simple-ast.png)
 
 ```swift
 enum InterpreterError: Error {
@@ -253,6 +253,7 @@ try! Interpreter.eval(ast)
 ---
 
 # Conclusion
+![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Conclusion.xcplaygroundpage/Resources/complete-flow.png)
 - Given an input
 `let input = "(s (s 4 5) 4)`
 - Extract an array of tokens (Lexing)
