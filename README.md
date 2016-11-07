@@ -24,6 +24,9 @@ Mu is a minimal language, that is consisted by a postfix operator, a binary oper
 * Interpreter
  
 ![Alt text](flow.png)
+
+---
+
 # Lexer
 
 *"In computer science, lexical analysis is the process of converting a sequence of characters into a sequence of tokens (strings with an identified "meaning"). A program that performs lexical analysis may be called a lexer, tokenizer,[1] or scanner (though "scanner" is also used to refer to the first stage of a lexer). Such a lexer is generally combined with a parser, which together analyze the syntax of programming languages..."* *-Wikipedia*
