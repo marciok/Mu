@@ -31,11 +31,12 @@ Mu is a minimal language, that is consisted by a postfix operator, a binary oper
 
 *"In computer science, lexical analysis is the process of converting a sequence of characters into a sequence of tokens (strings with an identified "meaning"). A program that performs lexical analysis may be called a lexer, tokenizer,[1] or scanner (though "scanner" is also used to refer to the first stage of a lexer). Such a lexer is generally combined with a parser, which together analyze the syntax of programming languages..."* *-Wikipedia*
 
+The idea is to transform an array of charaters into an array of tokens (strings with an identified "meaning")
 
 ## Example:
 ![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Lexer.xcplaygroundpage/Resources/lexer.png)
 
-Because `Mu` is so small--only one character operator and numbers--you can simply iterate over the input and check each one character at the time.
+Because `Mu` is so small--only one character operator and numbers--you can simply iterate over the input and check each character.
 
 ```swift
 enum Token {
