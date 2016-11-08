@@ -5,6 +5,7 @@
  
  *"In computer science, lexical analysis is the process of converting a sequence of characters into a sequence of tokens (strings with an identified "meaning"). A program that performs lexical analysis may be called a lexer, tokenizer,[1] or scanner (though "scanner" is also used to refer to the first stage of a lexer). Such a lexer is generally combined with a parser, which together analyze the syntax of programming languages..."* *-Wikipedia*
  
+ The idea is to transform an array of charaters into an array of tokens (strings with an identified "meaning")
 
  ## Example:
  ![Alt text](lexer.png)
