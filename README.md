@@ -2,7 +2,7 @@
 It's a playground explaining how to create a tiny programming language (Mu).
 
 You can download the playground [here](https://github.com/marciok/Mu/releases/download/1.0/WriteYourLanguage.playground.zip)
-or check the source code live [here](http://swiftlang.ng.bluemix.net/#/repl/58210e1bb7e5271affbd2a7e)
+or check the source code live [here](http://swiftlang.ng.bluemix.net/#/repl/582204a53c6b8052ec3e3b07)
 
 Or follow the tutorial below.
 
