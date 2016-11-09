@@ -19,9 +19,9 @@ Mu is a minimal language, that is consisted by a postfix operator, a binary oper
 `(s 2 4)` or `(s (s 4 5) 4)` or `(s (s 4 5) (s 3 2))`...
  
 ## The Steps:
-* Lexer
-* Parser
-* Interpreter
+* [Lexer](#lexer)
+* [Parser](#parser)
+* [Interpreter](#interpreter)
  
 ![Alt text](https://raw.githubusercontent.com/marciok/Mu/master/WriteYourLanguage.playground/Pages/Intro.xcplaygroundpage/Resources/flow.png)
 
