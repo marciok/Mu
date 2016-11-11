@@ -2,7 +2,7 @@
 It's a playground explaining how to create a tiny programming language (Mu).
 
 You can download the playground [here](https://github.com/marciok/Mu/releases/download/1.0/WriteYourLanguage.playground.zip)
-or check the source code live [here](http://swiftlang.ng.bluemix.net/#/repl/582204a53c6b8052ec3e3b07)
+or check the source code live [here](http://swiftlang.ng.bluemix.net/#/repl/5825fba6dee52b5745935831)
 
 Or follow the tutorial below.
 
@@ -53,10 +53,10 @@ struct Lexer {
             switch $0 {
                 case "(": return Token.parensOpen
                 case ")": return Token.parensClose
-                case "s": return Token.op($0.description)
+                case "s": return Token.op(String($0))
             default:
                 if "0"..."9" ~= $0 {
-                    return Token.number(Int($0.description)!)
+                    return Token.number(Int(String($0))!)
                 }
             }
             

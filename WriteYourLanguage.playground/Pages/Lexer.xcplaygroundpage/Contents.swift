@@ -28,10 +28,10 @@ struct Lexer {
             switch $0 {
                 case "(": return Token.parensOpen
                 case ")": return Token.parensClose
-                case "s": return Token.op($0.description)
+                case "s": return Token.op(String($0))
             default:
                 if "0"..."9" ~= $0 {
-                    return Token.number(Int($0.description)!)
+                    return Token.number(Int(String($0))!)
                 }
             }
             
