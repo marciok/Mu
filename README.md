@@ -100,7 +100,7 @@ func parseExpression() -> ExpressionNode {
    ...
 }
 
-func parseExpression() -> PrimaryExpressionNode {
+func parsePrimaryExpression() -> PrimaryExpressionNode {
    return parseExpression() || parseNumber()
 }
 ~~~
